@@ -1,14 +1,12 @@
-import React from 'react'
+import React from "react";
+import Hero from "./components/Hero";
 
 function App() {
-
   return (
-    
-    <div className='bg-primary '>
-    hi
-    </div>
-    
-  )
+    <main className="min-h-screen w-screen overflow-x-hidden relative ">
+      <Hero />
+    </main>
+  );
 }
 
-export default App
+export default App;
