@@ -3,13 +3,15 @@ import { TiLocationArrow } from "react-icons/ti";
 import Button from "./Button";
 
 
-const navaitems = [
+
+
+
+function Navbar() {
+  const navaitems = [
   'Nexus', 'Vault',  'Prolouge', 'About', 'Contact'
 ]
 const toggleAudioIndicator = () => {}
-const audioElementRef = useRef(null) 
-
-function Navbar() {
+  const audioElementRef = useRef(null) 
   const navContainerRef = useRef(null);
   return (
     <div
