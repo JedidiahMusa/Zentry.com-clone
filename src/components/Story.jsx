@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import AnimatedTitle from "./AnimatedTitle.jsx";
 import RoundedCorners from "./RoundedCorners.jsx";
-import Button from "./Button.jsx"
+import Button from "./Button.jsx";
 import gsap from "gsap";
 
 const Story = () => {
