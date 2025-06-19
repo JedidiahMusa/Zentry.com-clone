@@ -95,6 +95,8 @@ function Hero() {
               <video
                 loop
                 muted
+                playsInline
+  controls={false}
                 id="current-video"
                 className="size-64 origin-center scale-150 object-cover object-center"
                 ref={nextVideoRef}
@@ -105,6 +107,8 @@ function Hero() {
           </div>
           <video
             loop
+            playsInline
+  controls={false}
             muted
             id="next-video"
             className="absolute-center invisible size-64 absolute z-20 object-center object-cover"
@@ -115,6 +119,8 @@ function Hero() {
           <video
             autoPlay
             muted
+            playsInline
+  controls={false}
             loop
             className="absolute top-0 left-0 size-full object-center object-cover "
             onLoadedData={handleVideoLoad}
