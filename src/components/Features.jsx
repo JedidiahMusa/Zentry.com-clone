@@ -63,7 +63,7 @@ export const BentoCard = ({ src, title, description, isComingSoon }) => {
         loop
         muted
         playsInline
-  controls={false}
+        controls={false}
         autoPlay
         className="absolute left-0 top-0 size-full object-cover object-center"
       />
@@ -167,31 +167,29 @@ const Features = () => (
           />
         </BentoTilt>
 
-        <div className="flex gap-5 col-span-2" >
+        <div className="flex gap-5 col-span-2">
           <BentoTilt className="w-full h-full relative col-span-1 row-span-1 overflow-hidden rounded-md transition-transform duration-300 ease-out ">
-          <div className="flex size-full flex-col justify-between bg-violet-300 p-5">
-            <h1 className="bento-title special-font max-w-64 text-black">
-              M<b>o</b>re co<b>m</b>ing s<b>o</b>on.
-            </h1>
+            <div className="flex size-full flex-col justify-between bg-violet-300 p-5">
+              <h1 className="bento-title special-font max-w-64 text-black">
+                M<b>o</b>re co<b>m</b>ing s<b>o</b>on.
+              </h1>
 
-            <TiLocationArrow className="m-5 scale-[5] self-end" />
-          </div>
-        </BentoTilt>
+              <TiLocationArrow className="m-5 scale-[5] self-end" />
+            </div>
+          </BentoTilt>
 
-        <BentoTilt className="w-full h-full bento-tilt_2">
-          <video
-            src="videos/feature-5.mp4"
-            loop
-            playsInline
-  controls={false}
-            muted
-            autoPlay
-            className="size-full object-cover object-center"
-          />
-        </BentoTilt>
+          <BentoTilt className="w-full h-full bento-tilt_2">
+            <video
+              src="videos/feature-5.mp4"
+              loop
+              playsInline
+              controls={false}
+              muted
+              autoPlay
+              className="size-full object-cover object-center"
+            />
+          </BentoTilt>
         </div>
-
-        
       </div>
     </div>
   </section>
