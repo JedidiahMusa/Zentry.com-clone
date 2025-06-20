@@ -74,10 +74,9 @@ useEffect(() => {
               ))}
             </div>
             <button onClick={toggleAudioIndicator}  className="ml-10 flex items-center space-x-0.5 ">
-              <audio ref={audioElementRef} className="hidden " src="/audio/loop.mp3" />
+              <audio loop ref={audioElementRef} className="hidden " src="/audio/loop.mp3" />
               {[1, 2, 3, 4].map((bar)=>(
                 <div key={bar} className={`indicator-line ${isIndicatorActive? 'active' : ''}`} style={{animationDelay: `${bar * 0.1}s`}} />
-
               ))}
               
             </button>
