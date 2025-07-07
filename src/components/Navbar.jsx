@@ -52,7 +52,7 @@ function Navbar() {
       ref={navContainerRef}
       className="fixed inset-x-0 z-50 top-4 h-16 border-0 transition-all duration-700 sm:inset-x-6 "
     >
-      <header className="absolute top-1/2 w-full -translate-y-1/2 ">
+      <header className="absolute hover: top-1/2 w-full -translate-y-1/2 ">
         <nav className="flex size-full items-center justify-between p-4 ">
           <div className="flex items-center gap-7">
             <img src="/img/logo.png" alt="" className="w-10" />
